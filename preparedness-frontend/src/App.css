@@ -1,0 +1,43 @@
+.entire-content{
+    text-align: center;
+    background-image: url('./assets/background-image.jpeg');
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.input{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.label{
+    color: white;
+    font-size: 35px;
+    text-align: right;
+}
+.btns{
+    padding: 10px;
+    margin: 4px;
+}
+#btn1{
+    margin-right: 10px;
+}
+#btn2{
+    margin-left: 10px;
+}
+.button.btn.btn-info{
+    display: flex;
+}
+.btn.btn-secondary{
+    --bs-btn-bg: #0dcaf0;
+    color: white;
+    
+}
+  
